@@ -1,5 +1,5 @@
 import { ThemeStore, UnsyncedUserSettingsStore, ThemeColorMap } from "./requiredModules.jsx";
-import ShowNames from "..";
+import ShowNames from "../index.jsx";
 const PluginInstance = () => ShowNames.instance;
 export const getBackgroundColor = () => {
   const ChatBackgroundColorMap = ThemeColorMap.CHAT_BACKGROUND;
