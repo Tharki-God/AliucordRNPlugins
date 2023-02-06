@@ -1,18 +1,15 @@
-# Plugin Template for AliucordRN
+# AliucordRNPlugins
 
-This template uses typescript and the pnpm package manager
+<sup>Just me trying but on android</sup>
 
-Make a copy of this template, clone it and run `pnpm install`
+### ShowNames
 
-## Building plugins
+Improve the readability of names if their color is (almost) the same as the background.
 
-Build Plugin:
-```sh
-pnpm build TokenLogger
-```
+The plugin works by changing the color locally.
 
-Watch for changes and auto compile & deploy* :
-```sh
-pnpm watch TokenLogger
-```
-\* Requires adb installed and to be connected to your phone
+Raw Link:
+[ShowNames.zip](https://raw.githubusercontent.com/Tharki-God/AliucordRNPlugins/builds/ShowNames.zip)
+
+![image](https://raw.githubusercontent.com/Tharki-God/files-random-host/main/bdpluginsassets/shownames.gif)
+<sup>Preview is for pc but works same on android.</sup>
